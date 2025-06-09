@@ -1,6 +1,6 @@
 from typing import Any
 import httpx
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # type: ignore
 
 # Initialize FastMCP server
 mcp = FastMCP("Weather")

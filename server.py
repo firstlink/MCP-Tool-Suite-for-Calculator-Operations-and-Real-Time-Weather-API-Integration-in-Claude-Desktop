@@ -1,4 +1,4 @@
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # type: ignore
 
 # Create an MCP server
 mcp = FastMCP("Dharsh Calculator")
